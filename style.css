@@ -1,0 +1,116 @@
+body {
+  font-family: Roboto Slab, sans-serif;
+  margin-top: 70px;
+}
+.navbar {
+  background-color: white;
+}
+.navbar-brand {
+  font-size: 1.6rem;
+  font-weight: 600;
+  letter-spacing: 6px;
+}
+
+.nav-link {
+  font-size: 1.4rem;
+  font-weight: 100;
+}
+
+#imgnav {
+  margin-right: 20px;
+}
+
+#hgroup span {
+  color: rgb(155, 155, 155);
+  font-weight: 500;
+  font-family: Poppins;
+}
+
+@media (max-width: 1200px) {
+  #hgroup h1 {
+    font-size: 1.7rem;
+  }
+}
+@media (max-width: 400px) {
+  #hgroup h1 {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 600px) {
+  #hgroup h1 {
+    font-size: 1.5rem;
+  }
+}
+
+.imgb {
+  width: 50px;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 1.7rem;
+  font-family: Poppins;
+}
+
+.note h2 {
+  padding-bottom: 15px;
+}
+.note img {
+  margin: 20px;
+}
+
+.note p {
+  padding-top: 10px;
+}
+
+.content {
+  margin-top: 70px;
+}
+
+@media (max-width: 1200px) {
+  #top {
+    margin-top: 20px;
+  }
+  .note h2 {
+    padding-bottom: 30px;
+  }
+}
+
+p {
+  font-size: 1.2rem;
+  padding-top: 10px;
+}
+
+@media (max-width: 600px) {
+  p {
+    font-size: 1rem;
+  }
+}
+
+#footer {
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-top: 1px solid rgb(199, 199, 199);
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-weight: 100;
+  font-size: 1rem;
+}
+
+footer h3 {
+  font-size: 1.2rem;
+  align-items: baseline;
+  justify-content: flex-start;
+}
+
+.contact a {
+  text-decoration: none;
+  color: black;
+}
+
+.contact a:hover {
+  color: aliceblue;
+}
